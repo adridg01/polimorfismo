@@ -1,17 +1,17 @@
 public class  Esfera extends Forma{
-    private double radio;
-    public Esfera(double radio) {
+    private double Radio;
+    public Esfera(double Radio) {
         super("Esfera");
-        this.radio=radio;
+        this.Radio=Radio;
     }
 
     @Override
-    public double area() {
-        return super.area()+(4*Math.PI*Math.pow(radio,2));
+    public double Area() {
+        return super.Area()+(4*Math.PI*Math.pow(Radio,2));
     }
 
     @Override
     public String toString() {
-        return super.toString()+" " + area();
+        return super.toString()+" " + Area();
     }
 }

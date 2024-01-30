@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Mainpintura {
     public static void main(String[] args) {
         Pintura a=new Pintura(250);

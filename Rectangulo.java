@@ -1,19 +1,19 @@
 public class Rectangulo extends Forma {
-    private double largo;
-    private double ancho;
-    public Rectangulo ( double largo, double ancho) {
+    private double Largo;
+    private double Ancho;
+    public Rectangulo ( double Largo, double Ancho) {
 
         super("Rectangulo");
-        this.ancho=ancho;
-        this.largo=largo;
+        this.Ancho=Ancho;
+        this.Largo=Largo;
     }
     @Override
-    public double area() {
-        return super.area() + largo * ancho;
+    public double Area() {
+        return super.Area() + Largo * Ancho;
     }
 
     @Override
     public String toString() {
-        return super.toString()+ area();
+        return super.toString()+ Area();
     }
 }

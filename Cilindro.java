@@ -1,17 +1,17 @@
 public class Cilindro extends Forma{
-    private int radio;
-    private int altura;
-    public Cilindro (int radio, int altura){
+    private int Radio;
+    private int Altura;
+    public Cilindro (int Radio, int Altura){
         super ("Cilindro");
-        this.radio=radio;
-        this.altura=altura;
+        this.Radio=Radio;
+        this.Altura=Altura;
     }
     @Override
-    public double area() {
-        return super.area()+(Math.PI*Math.pow(radio,2*altura));
+    public double Area() {
+        return super.Area()+(Math.PI*Math.pow(Radio,2*Altura));
     }
     @Override
     public String toString() {
-        return super.toString() + area();
+        return super.toString() + Area();
     }
 }

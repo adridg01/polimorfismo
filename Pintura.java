@@ -1,9 +1,10 @@
 public class Pintura{
- double cobertura;
-public Pintura(double cobertura){
- this.cobertura=cobertura;
+ double Cobertura;
+public Pintura(double Cobertura){
+ this.Cobertura=Cobertura;
 }
 public double getcobertura(Forma forma){
- return forma.area()/cobertura;
+
+ return forma.Area()/Cobertura;
 }
 }

@@ -1,15 +1,15 @@
 public class Forma {
-    public String nombre;
+    public String Nombre;
 
 
-    public Forma(String nombre) {
-        this.nombre = nombre;
+    public Forma(String Nombre) {
+        this.Nombre = Nombre;
     }
-    public double area(){
+    public double Area(){
         return 0;
     }
             @Override
     public String toString() {
-        return nombre;
+        return Nombre;
     }
 }
