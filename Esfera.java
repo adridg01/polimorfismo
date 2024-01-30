@@ -1,4 +1,4 @@
-public class Esfera extends Forma{
+public class  Esfera extends Forma{
     private double radio;
     public Esfera(double radio) {
         super("Esfera");
